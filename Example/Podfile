@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BurmaNRC_Example' do
+  pod 'BurmaNRC', :path => '../'
+
+  target 'BurmaNRC_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
