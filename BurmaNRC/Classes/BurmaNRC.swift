@@ -246,7 +246,7 @@ public final class BurmaNRC {
         var _res = ""
         burNum.forEach() {
             s in
-            _res += String(describing: BURMESE_NUM.index(of: String(s))!)
+            _res += String(describing: BURMESE_NUM.firstIndex(of: String(s))!)
         }
         
         return _res
