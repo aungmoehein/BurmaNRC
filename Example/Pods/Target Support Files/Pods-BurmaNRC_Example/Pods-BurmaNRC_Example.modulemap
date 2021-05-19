@@ -1,0 +1,6 @@
+framework module Pods_BurmaNRC_Example {
+  umbrella header "Pods-BurmaNRC_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

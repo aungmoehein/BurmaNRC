@@ -1,0 +1,22 @@
+{
+  "name": "BurmaNRC",
+  "version": "0.1.0",
+  "summary": "A short description of BurmaNRC.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/moesteven96@gmail.com/BurmaNRC",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "moesteven96@gmail.com": "ang.m.hein@frontiir.net"
+  },
+  "source": {
+    "git": "https://github.com/moesteven96@gmail.com/BurmaNRC.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BurmaNRC/Classes/**/*"
+}

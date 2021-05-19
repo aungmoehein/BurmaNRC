@@ -1,0 +1,16 @@
+PODS:
+  - BurmaNRC (0.1.0)
+
+DEPENDENCIES:
+  - BurmaNRC (from `../`)
+
+EXTERNAL SOURCES:
+  BurmaNRC:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BurmaNRC: fd944f058f8bba5ac5090c60701fda062976cb04
+
+PODFILE CHECKSUM: 2f8a6af890de9decd25242300d9ec8e941d44cbc
+
+COCOAPODS: 1.10.1

@@ -7,31 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03AE59BC06BBF3E042DEA11B /* Pods_BurmaNRC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AEBA9EBB4F948589DEC97D /* Pods_BurmaNRC_Tests.framework */; };
 		253B2BDDC9BD1372A976A56E /* Pods_BurmaNRC_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DCAEAF837079988B23A7E6D /* Pods_BurmaNRC_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		EC895D4D31EF31B16EBED12E /* Pods_BurmaNRC_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C2AEBA9EBB4F948589DEC97D /* Pods_BurmaNRC_Tests.framework */; };
+		613E2C68264E2CB600B4571F /* BurmaNRC_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613E2C67264E2CB600B4571F /* BurmaNRC_ExampleTests.swift */; };
+		613E2C78264E2D5D00B4571F /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		607FACE61AFB9204008FA782 /* PBXContainerItemProxy */ = {
+		613E2C6A264E2CB600B4571F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = BurmaNRC;
+			remoteInfo = BurmaNRC_Example;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		062C6EFEF02C4794638FDC8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		062C6EFEF02C4794638FDC8C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		148E27AD5287CC0984E0141C /* Pods-BurmaNRC_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurmaNRC_Example.debug.xcconfig"; path = "Target Support Files/Pods-BurmaNRC_Example/Pods-BurmaNRC_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		302AAE355FCB02D48E565E2E /* BurmaNRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BurmaNRC.podspec; path = ../BurmaNRC.podspec; sourceTree = "<group>"; };
-		4095A35E963D9E92CC4CF33A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		302AAE355FCB02D48E565E2E /* BurmaNRC.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BurmaNRC.podspec; path = ../BurmaNRC.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		4095A35E963D9E92CC4CF33A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* BurmaNRC_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BurmaNRC_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -39,9 +40,11 @@
 		607FACDA1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		607FACDF1AFB9204008FA782 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* BurmaNRC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurmaNRC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		613E2C65264E2CB600B4571F /* BurmaNRC_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BurmaNRC_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		613E2C67264E2CB600B4571F /* BurmaNRC_ExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurmaNRC_ExampleTests.swift; sourceTree = "<group>"; };
+		613E2C69264E2CB600B4571F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7DCAEAF837079988B23A7E6D /* Pods_BurmaNRC_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurmaNRC_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2AEBA9EBB4F948589DEC97D /* Pods_BurmaNRC_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BurmaNRC_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D7C78BABDF0A7078708FA3BF /* Pods-BurmaNRC_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BurmaNRC_Tests.release.xcconfig"; path = "Target Support Files/Pods-BurmaNRC_Tests/Pods-BurmaNRC_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -58,11 +61,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE21AFB9204008FA782 /* Frameworks */ = {
+		613E2C62264E2CB600B4571F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC895D4D31EF31B16EBED12E /* Pods_BurmaNRC_Tests.framework in Frameworks */,
+				03AE59BC06BBF3E042DEA11B /* Pods_BurmaNRC_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,6 +78,7 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for BurmaNRC */,
 				607FACE81AFB9204008FA782 /* Tests */,
+				613E2C66264E2CB600B4571F /* BurmaNRC_ExampleTests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				C66CC46458C9F6294EE73C42 /* Pods */,
 				9EEE969B6FC7B0FE662EBF67 /* Frameworks */,
@@ -85,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACD01AFB9204008FA782 /* BurmaNRC_Example.app */,
-				607FACE51AFB9204008FA782 /* BurmaNRC_Tests.xctest */,
+				613E2C65264E2CB600B4571F /* BurmaNRC_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -139,6 +143,15 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		613E2C66264E2CB600B4571F /* BurmaNRC_ExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				613E2C67264E2CB600B4571F /* BurmaNRC_ExampleTests.swift */,
+				613E2C69264E2CB600B4571F /* Info.plist */,
+			);
+			path = BurmaNRC_ExampleTests;
+			sourceTree = "<group>";
+		};
 		9EEE969B6FC7B0FE662EBF67 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +169,6 @@
 				FC5E4282ACD490545170E923 /* Pods-BurmaNRC_Tests.debug.xcconfig */,
 				D7C78BABDF0A7078708FA3BF /* Pods-BurmaNRC_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -182,23 +194,23 @@
 			productReference = 607FACD01AFB9204008FA782 /* BurmaNRC_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* BurmaNRC_Tests */ = {
+		613E2C64264E2CB600B4571F /* BurmaNRC_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BurmaNRC_Tests" */;
+			buildConfigurationList = 613E2C6C264E2CB600B4571F /* Build configuration list for PBXNativeTarget "BurmaNRC_Tests" */;
 			buildPhases = (
-				2CDE72E138C13AD928D37F54 /* [CP] Check Pods Manifest.lock */,
-				607FACE11AFB9204008FA782 /* Sources */,
-				607FACE21AFB9204008FA782 /* Frameworks */,
-				607FACE31AFB9204008FA782 /* Resources */,
+				379452C4411BAAF32E735420 /* [CP] Check Pods Manifest.lock */,
+				613E2C61264E2CB600B4571F /* Sources */,
+				613E2C62264E2CB600B4571F /* Frameworks */,
+				613E2C63264E2CB600B4571F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
+				613E2C6B264E2CB600B4571F /* PBXTargetDependency */,
 			);
 			name = BurmaNRC_Tests;
-			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* BurmaNRC_Tests.xctest */;
+			productName = BurmaNRC_ExampleTests;
+			productReference = 613E2C65264E2CB600B4571F /* BurmaNRC_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,17 +219,19 @@
 		607FACC81AFB9204008FA782 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0830;
+				LastSwiftUpdateCheck = 1230;
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = KG6U27GS6L;
 						LastSwiftMigration = 0900;
 					};
-					607FACE41AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+					613E2C64264E2CB600B4571F = {
+						CreatedOnToolsVersion = 12.3;
+						DevelopmentTeam = KG6U27GS6L;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
@@ -227,6 +241,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -236,7 +251,7 @@
 			projectRoot = "";
 			targets = (
 				607FACCF1AFB9204008FA782 /* BurmaNRC_Example */,
-				607FACE41AFB9204008FA782 /* BurmaNRC_Tests */,
+				613E2C64264E2CB600B4571F /* BurmaNRC_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -252,7 +267,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE31AFB9204008FA782 /* Resources */ = {
+		613E2C63264E2CB600B4571F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -262,7 +277,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2CDE72E138C13AD928D37F54 /* [CP] Check Pods Manifest.lock */ = {
+		379452C4411BAAF32E735420 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -336,21 +351,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		607FACE11AFB9204008FA782 /* Sources */ = {
+		613E2C61264E2CB600B4571F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				607FACEC1AFB9204008FA782 /* Tests.swift in Sources */,
+				613E2C68264E2CB600B4571F /* BurmaNRC_ExampleTests.swift in Sources */,
+				613E2C78264E2D5D00B4571F /* Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
+		613E2C6B264E2CB600B4571F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 607FACCF1AFB9204008FA782 /* BurmaNRC_Example */;
-			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
+			targetProxy = 613E2C6A264E2CB600B4571F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -478,6 +494,7 @@
 			baseConfigurationReference = 148E27AD5287CC0984E0141C /* Pods-BurmaNRC_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG6U27GS6L;
 				INFOPLIST_FILE = BurmaNRC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -493,6 +510,7 @@
 			baseConfigurationReference = E8C88550BC986F16736B7173 /* Pods-BurmaNRC_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = KG6U27GS6L;
 				INFOPLIST_FILE = BurmaNRC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -503,42 +521,63 @@
 			};
 			name = Release;
 		};
-		607FACF31AFB9204008FA782 /* Debug */ = {
+		613E2C6D264E2CB600B4571F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FC5E4282ACD490545170E923 /* Pods-BurmaNRC_Tests.debug.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = KG6U27GS6L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BurmaNRC_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aungmoehein.BurmaNRC-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurmaNRC_Example.app/BurmaNRC_Example";
 			};
 			name = Debug;
 		};
-		607FACF41AFB9204008FA782 /* Release */ = {
+		613E2C6E264E2CB600B4571F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D7C78BABDF0A7078708FA3BF /* Pods-BurmaNRC_Tests.release.xcconfig */;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Tests/Info.plist;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KG6U27GS6L;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = BurmaNRC_ExampleTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.aungmoehein.BurmaNRC-ExampleTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BurmaNRC_Example.app/BurmaNRC_Example";
 			};
 			name = Release;
@@ -564,11 +603,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "BurmaNRC_Tests" */ = {
+		613E2C6C264E2CB600B4571F /* Build configuration list for PBXNativeTarget "BurmaNRC_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				607FACF31AFB9204008FA782 /* Debug */,
-				607FACF41AFB9204008FA782 /* Release */,
+				613E2C6D264E2CB600B4571F /* Debug */,
+				613E2C6E264E2CB600B4571F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
