@@ -84,7 +84,7 @@ do {
 
 ## 1.5. Author
 
-moesteven96@gmail.com, ang.m.hein@frontiir.net
+moesteven96@gmail.com
 
 ## 1.6. License
 
