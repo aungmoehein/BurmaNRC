@@ -3,12 +3,17 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 osx_image: xcode12.3
+env:
+  matrix:
+    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone XR'
+    - TEST_SDK=iphonesimulator12.1 OS=12.1 NAME='iPhone 7'
+
 language: swift
 # cache: cocoapods
 # podfile: Example/Podfile
-# before_install:
-# - gem install cocoapods # Since Travis is not always on latest version
-# - pod install --project-directory=Example
+before_install:
+- gem install cocoapods # Since Travis is not always on latest version
+- pod install --project-directory=Example
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/BurmaNRC.xcworkspace -scheme BurmaNRC-Example -sdk iphonesimulator9.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
