@@ -1,5 +1,5 @@
 PODS:
-  - BurmaNRC (0.1.0)
+  - BurmaNRC (1.0.0)
 
 DEPENDENCIES:
   - BurmaNRC (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BurmaNRC: fd944f058f8bba5ac5090c60701fda062976cb04
+  BurmaNRC: 1e529eb4284a4316574dcda6b5b32f176efa0ff7
 
-PODFILE CHECKSUM: 2f8a6af890de9decd25242300d9ec8e941d44cbc
+PODFILE CHECKSUM: 486964e56cd172f75cda6ebe085bde318ae5d9b0
 
 COCOAPODS: 1.10.1

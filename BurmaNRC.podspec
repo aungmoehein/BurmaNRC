@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BurmaNRC'
-  s.version          = '0.1.0'
+  s.version          = '1.0.0'
   s.summary          = 'BurmaNRC stands for Burma National Registration Card.'
 
 # This description is used to generate tags and improve search results.
